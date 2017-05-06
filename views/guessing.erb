@@ -1,0 +1,19 @@
+<body bgcolor=silver>
+
+<center><h3><%= p2_name%> you may start guessing the word </h3></center>
+
+<center><h2><%=blank%></h2></center>
+
+<br/><br/>
+
+<center><form method="post" action="guess">
+
+<input type="letter" name="guess">
+
+<input type="submit" value="Submit"
+</center>
+<center><h2>Guesses - <%=array%> </h2></center>
+
+<input type="hidden" name="player1" value='<%= p1_name%>'>
+</form>
+
